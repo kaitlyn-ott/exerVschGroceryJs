@@ -6,11 +6,13 @@ var shopper = {
 	lastName: "Smith",	
 	age: 29,	
 	isCurrent: true,	
-	fullname: function() {this.firstName + " " + this.lastName;},
+	fullname: function() 
+	{return this.firstName + " " + this.lastName;},
 	groceryCart: ["apples", "oranges", "strawberries", "watermelon", "grapes"]
 
 };
 
 console.log(shopper)
+console.log(shopper.fullname())
 
 
